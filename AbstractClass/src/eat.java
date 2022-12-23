@@ -9,11 +9,13 @@ void eat1()
 System.out.print("I am a vegetarian");
 }
 }
-class Carnivores extends Animal {
+class carnivores extends Animal {
 void eat()
 {
 System.out.print("I am non-vegetarian");
 }
 public static void main(String args[])
 {
-Animal goat = new Animal();} }
+Animal goat = new Animal();
+}
+}
